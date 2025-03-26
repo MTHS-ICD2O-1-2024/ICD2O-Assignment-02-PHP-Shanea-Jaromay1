@@ -42,7 +42,7 @@
           // Output the result
           echo "If the cylinder has a radius = " . $radiusNumber . " cm and a height = " . $heightNumber . " cm:<br />";
           echo "<br />";
-          echo "The surface area of the cylinder is " ($area, 2) . " cm².";
+          echo "The surface area of the cylinder is " . (round($area, 2)) . " cm².";
           echo "<br />";
           ?>
         </div>
